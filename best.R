@@ -1,5 +1,4 @@
 best <- function(state, outcome){
-    setwd("~/Course/Assignment3")
     tab <- read.csv("outcome-of-care-measures.csv")
     s <- unique(tab[,7])
     if(!(state %in% s)){

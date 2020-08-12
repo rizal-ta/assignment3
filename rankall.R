@@ -1,5 +1,4 @@
 rankall <- function(outcome, num = "best"){
-    setwd("~/Course/Assignment3")
     source("rankhospital.R")
     tab <- read.csv("outcome-of-care-measures.csv")
     j <- if(outcome == "heart attack") 11
